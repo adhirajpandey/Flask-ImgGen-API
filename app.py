@@ -12,4 +12,6 @@ def hello(promt):
     images, tile_images, raw_images = get_image(promt)
     return jsonify(images = images, tile_images = tile_images, raw_images = raw_images)
 
-app.run(debug=True) 
+
+if __name__ == '__main__':
+    app.run()
