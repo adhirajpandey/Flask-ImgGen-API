@@ -7,7 +7,7 @@ The API processes the response, filters the required data, and returns the links
 
 User does not need to make account on TOME and there is no need for buying additional credits. This process is automated for a particaular account for tessting purposes.
 
-Currently deployed at : https://flask-tome-api.onrender.com/
+Currently deployed at : https://flask-imggen.onrender.com
 
 # Interaction
 
