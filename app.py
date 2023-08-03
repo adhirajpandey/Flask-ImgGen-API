@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     return (f'Hi, This is the index page of the DALL-E UNOFFICIAL TOME API. Use the /<YOUR_QUERY> endpoint to get the result.')
 
-@app.route('/', methods = ['GET'])
+@app.route('/genimg', methods = ['GET'])
 def imggenTome():
     img_prompt = request.args.get('prompt')
     images, tile_images, raw_images = get_image(img_prompt)
