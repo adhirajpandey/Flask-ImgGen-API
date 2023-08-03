@@ -3,14 +3,14 @@ import json
 import os
 
 
-def get_image(promt):
+def get_image(img_prompt):
 
     url = "https://backend.tome.app/"
 
     data_dict = {
     "operationName": "GENERATE_IMAGES_MUTATION",
     "variables": {
-        "prompt": promt,
+        "prompt": img_prompt,
         "tileId": "clcpit8xq1rz53a81cw2a77fy",
         "tomeId": "clcpissn208pf813av9ffc6mq"
     },
