@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return (f'Hi, This is the index page of the DALL-E UNOFFICIAL TOME API. Use the /<YOUR_QUERY> endpoint to get the result.')
+    return (f'Hi, This is the index page of the DALL-E UNOFFICIAL TOME API. Use the /genimg?prompt=<Your_Prompt> endpoint to get the result.')
 
 @app.route('/genimg', methods = ['GET'])
 def imggenTome():

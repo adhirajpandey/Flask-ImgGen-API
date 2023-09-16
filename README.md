@@ -7,11 +7,13 @@ The API processes the response, filters the required data, and returns the links
 
 User does not need to make account on TOME and there is no need for buying additional credits. This process is automated for a particaular account for tessting purposes.
 
-Currently deployed at : https://flask-imggen.onrender.com
+Potential use case is to make a dataset for fake/real image detection model training.
+
+Currently deployed at : https://imggen.adhiraj.live
 
 # Interaction
 
-Add your promt for DALL-E after `/` in the url.
+Pass in your image generation prompt as 'prompt' argument in GET request to /genimg endpoint.
 
 # Example 
 
