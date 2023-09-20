@@ -5,7 +5,7 @@ This is a basic backend Flask API that allows users to easily retrieve DALL-E ge
 It allows user to make a GET request to the endpoint with their desired prompt, which sends the prompt to the "TOME" backend API along with additional details like headers, data, cookies(user-auth). 
 The API processes the response, filters the required data, and returns the links in JSON format.
 
-User does not need to make account on TOME and there is no need for buying additional credits. This process is automated for a particaular account for tessting purposes.
+User does not need to make account on TOME and there is no need for buying additional credits. This process is automated for a particaular demo account for testing purposes.
 
 Potential use case is to make a dataset for fake/real image detection model training.
 
@@ -19,14 +19,19 @@ Pass in your image generation prompt as 'prompt' argument in GET request to /gen
 
 Request :
 
-![image](https://user-images.githubusercontent.com/87516052/211926141-5bec72ee-1e45-43ef-bf6c-b77ffd866db4.png)
+![request](https://github.com/adhirajpandey/Flask-ImgGen-API/assets/87516052/6b289b4b-319b-45af-9190-4b23b1ab05bc)
+
 
 Result :
 
-![image](https://user-images.githubusercontent.com/87516052/211926494-8642142b-5331-4467-bf7c-4359eadebf0f.png)
+![response](https://github.com/adhirajpandey/Flask-ImgGen-API/assets/87516052/b9d6bfee-a43c-4e90-96cf-080b70bb41ab)
+
 
 Actual Generated Image for example Prompt :
 
-![image](https://user-images.githubusercontent.com/87516052/211926589-46327cda-5361-4c47-9e81-d63c91503653.png)
+![image](https://github.com/adhirajpandey/Flask-ImgGen-API/assets/87516052/05467ac8-2920-4fd5-9a86-8565fdd94637)
 
 
+
+## Disclaimer
+This project is not affiliated with Tome or its services. It's an independent tool created for educational and personal use.
