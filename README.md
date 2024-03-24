@@ -9,7 +9,7 @@ User does not need to make account on TOME and there is no need for buying addit
 
 Potential use case is to make a dataset for fake/real image detection model training.
 
-Currently deployed at : https://imggen.adhiraj.live
+Currently deployed at : https://imggen.adhirajpandey.me/
 
 # Interaction
 
